@@ -46,10 +46,10 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         componentsLibrary:
-        "components_library@http://localhost:8080/remoteEntry.js",
+          "components_library@https://components-library-eosin.vercel.app/remoteEntry.js",
       },
       exposes: {
-        "./AppA": "./src/App.tsx"
+        "./AppA": "./src/App.tsx",
       },
       shared: {
         ...deps,
@@ -68,7 +68,7 @@ module.exports = {
       },
     }),
     new HtmlWebPackPlugin({
-      template: "./src/index.html",
+      template: "./public/index.html",
     }),
   ],
 };
