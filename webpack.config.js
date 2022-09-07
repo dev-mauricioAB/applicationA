@@ -46,7 +46,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         componentsLibrary:
-          "components_library@https://components-library-eosin.vercel.app/remoteEntry.js",
+          "components_library@https://components-library-git-develop-dev-mauricioab.vercel.app/remoteEntry.js",
       },
       exposes: {
         "./AppA": "./src/App.tsx",
