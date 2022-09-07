@@ -3,12 +3,17 @@ declare module "componentsLibrary/Header" {
     title: string;
     clickLogo?: () => void;
   }
+
   const Header: React.FC<HeaderProps>;
 
   export { Header };
 }
 declare module "componentsLibrary/Footer" {
-  const Footer: React.FC;
+  interface FooterProps {
+    title: string;
+  }
+
+  const Footer: React.FC<FooterProps>;
 
   export { Footer };
 }

@@ -21,7 +21,7 @@ export const HomeView: React.FC = () => {
         <Route path="/screenA" element={<ScreenA />} />
         <Route path="/screenB" element={<ScreenB />} />
       </Routes>
-      <Footer />
+      <Footer title="Footer in Application A" />
     </div>
   );
 };
