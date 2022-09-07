@@ -10,7 +10,7 @@ module.exports = {
   },
 
   output: {
-    publicPath: "auto",
+    publicPath: "https://application-a.vercel.app/",
   },
 
   resolve: {
@@ -51,7 +51,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         componentsLibrary:
-          "components_library@https://components-library-git-develop-dev-mauricioab.vercel.app/remoteEntry.js",
+          "components_library@https://components-library-react.vercel.app/remoteEntry.js",
       },
       exposes: {
         "./AppA": "./src/App.tsx",
