@@ -68,7 +68,6 @@ module.exports = {
         },
       },
     }),
-
     new HtmlWebPackPlugin({
       template: "./public/index.html",
     }),
