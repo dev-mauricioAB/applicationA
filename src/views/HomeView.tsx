@@ -18,8 +18,8 @@ export const HomeView: React.FC = () => {
       <Routes>
         <Route path="/appA" element={<Navigate to="/" replace />} />
         <Route path="/" element={<ScreensCards />} />
-        <Route path="/screenA" element={<ScreenA />} />
-        <Route path="/screenB" element={<ScreenB />} />
+        <Route path="/appA/screenA" element={<ScreenA />} />
+        <Route path="/appA/screenB" element={<ScreenB />} />
       </Routes>
       <Footer title="Footer in Application A" />
     </div>
