@@ -6,7 +6,7 @@ module.exports = {
   devtool: "source-map",
 
   output: {
-    publicPath: "https://application-a.vercel.app/",
+    publicPath: "auto",
   },
 
   resolve: {
