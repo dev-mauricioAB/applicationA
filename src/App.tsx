@@ -9,7 +9,7 @@ import "./index.scss";
 export const AppA: React.FC = () => <HomeView />;
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/appA">
     <AppA />
   </BrowserRouter>,
   document.getElementById("app")
